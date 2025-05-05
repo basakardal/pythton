@@ -1,7 +1,8 @@
-bagaj=int (input("toplam bagaji girin: "))
-if bagaj<=20:
-     print ("herhangi bir ücret ödemeniz gerekmiyor" )
-else:
-     fark=bagaj-20
-     print("fazla bagaj için",10*fark,"TL ödemelisiniz")
-print("iyi yolculuklar")
+toplam=0
+s1=int(input("küçük olan sayıyı girin: "))
+s2=int(input("büyük olan sayıyı girin: "))
+
+for i in range(s1,s2):
+    if sayi % 2 == 0:
+        toplam=toplam+Sayi 
+print(s1,"ile",s2,"sayıları arasımdaki çift sayıların toplamı: ",toplam)
